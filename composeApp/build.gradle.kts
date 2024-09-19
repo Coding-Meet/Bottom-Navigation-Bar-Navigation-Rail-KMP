@@ -46,6 +46,15 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+
+            // Material 3
+            implementation(compose.material3)
+
+            // Navigation
+            implementation(libs.navigation.compose)
+
+            // window-size
+            implementation(libs.screen.size)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
